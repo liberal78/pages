@@ -1,2 +1,2 @@
-web: waitress config.wsgi
+web: waitress-serve --port=$PORT website:app
 --log-file-
