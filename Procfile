@@ -1,3 +1,2 @@
-web: gunicorn config.wsgi
-web: gunicorn pages:app
+web: waitress-serve --port=$PORT pages:app
 --log-file-
