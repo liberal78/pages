@@ -1,2 +1,2 @@
-web: waitress-serve --port=$PORT apps:app
+web: waitress-serve --port=$PORT pages:app
 --log-file-
